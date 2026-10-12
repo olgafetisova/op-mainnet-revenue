@@ -1,0 +1,17 @@
+date,kind,label,source
+2025-02-03,market,"Tariff sell-off, ETH -20%, $1.8B liquidated",https://www.theblock.co/news/markets/2025-02-02-crypto-sees-over-1-7-billion-liquidated-in-past-day-as-trump-tariffs-dampen-overleveraged-bullish-sentiment-338416
+2025-04-07,market,"Liberation Day tariff crash, $1.4B liquidated",https://cointelegraph.com/news/whale-14-m-emergency-deposit-avoid-340-m-eth-liquidation
+2025-05-07,protocol,"Ethereum Pectra: blob target 3 to 6",https://blog.ethereum.org/2025/04/23/pectra-mainnet
+2025-05-07,protocol,"OP gas target 10M to 15M (elasticity 6 to 4)",https://optimistic.etherscan.io/block/135513415
+2025-05-09,protocol,"OP Isthmus hardfork",https://docs.optimism.io/notices/upgrade-15
+2025-05-22,protocol,"OP gas target 15M to 20M (limit 40M, elasticity 2)",https://optimistic.etherscan.io/block/136165875
+2025-10-10,market,"Record $19B liquidation crash",https://decrypt.co/343941/bitcoin-ethereum-dogecoin-down-record-19-billion-crypto-liquidations
+2025-12-02,protocol,"OP Jovian: minBaseFee field added (set to 0)",https://docs.optimism.io/notices/upgrade-17
+2025-12-03,protocol,"Ethereum Fusaka (PeerDAS)",https://blog.ethereum.org/2025/11/06/fusaka-mainnet-announcement
+2025-12-04,protocol,"Base minimum base fee enabled (200,000 wei)",https://docs.base.org/base-chain/network-information/configuration-changelog
+2025-12-09,protocol,"Ethereum BPO1: blob target 6 to 10",https://blog.ethereum.org/2025/11/06/fusaka-mainnet-announcement
+2026-01-07,protocol,"Ethereum BPO2: blob target 10 to 14",https://blog.ethereum.org/2025/11/06/fusaka-mainnet-announcement
+2026-01-31,market,"Liquidation cascade, $2.5B, ETH -15%",https://www.falconx.io/newsroom/unpacking-the-january-31-liquidation-cascade
+2026-02-05,market,"BTC -13% day, sell-off deepens",https://aljazeera.com/economy/2026/2/5/bitcoin-plunge-continues-erasing-gains-since-trumps-election
+2026-02-19,protocol,"Base minimum base fee raised to 5,000,000 wei",https://docs.base.org/base-chain/network-information/configuration-changelog
+2026-06-04,market,"BTC slide to $61K, $1.5B liquidated",https://news.bloomberglaw.com/crypto/crypto-liquidations-top-1-billion-as-bitcoins-slide-deepens

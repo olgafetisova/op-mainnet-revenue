@@ -1,0 +1,2 @@
+growthepie pulled_at_utc: 2026-10-09T11:33:24Z https://api.growthepie.com/v1/export/fees.json https://api.growthepie.com/v1/export/rent_paid.json https://api.growthepie.com/v1/export/profit.json https://api.growthepie.com/v1/export/txcount.json
+op_block_headers pulled_at_utc: 2026-10-09T12:40:26Z https://mainnet.optimism.io eth_getBlockByNumber every 6:00:00 2025-01-01..2026-09-15

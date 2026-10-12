@@ -1,0 +1,1077 @@
+{
+  "cust_activity_table": {
+    "note": "TTM halves 2025-09-16..2026-03-15 vs 2026-03-16..2026-09-15, totals; deposits = headline TVL on the last day of each half",
+    "value": [
+      {
+        "change": 0.686,
+        "h1": 1864623954,
+        "h2": 3143672617,
+        "metric": "Stablecoin transfers (excl. bots)",
+        "multiple": 1.686
+      },
+      {
+        "change": 9.5822,
+        "h1": 61828221,
+        "h2": 654280430,
+        "metric": "Money bridged in, net",
+        "multiple": 10.582
+      },
+      {
+        "change": 1.237,
+        "h1": 196198646,
+        "h2": 438887755,
+        "metric": "Deposits in apps (end of half)",
+        "multiple": 2.237
+      },
+      {
+        "change": -0.489,
+        "h1": 5953092324,
+        "h2": 3042112352,
+        "metric": "DEX trading volume",
+        "multiple": 0.511
+      },
+      {
+        "change": -0.7175,
+        "h1": 1287749780,
+        "h2": 363790413,
+        "metric": "New loans",
+        "multiple": 0.283
+      }
+    ]
+  },
+  "cust_app_pnl_unmatched": {
+    "note": "file 08 protocols (TTM) with no matching customer app",
+    "value": 118
+  },
+  "cust_app_pnl_unmatched_revenue_share": {
+    "note": "share of file 08 TTM app revenue from unmatched protocols",
+    "value": 0.22243801070309313
+  },
+  "cust_bots_share": {
+    "note": "segment bots_automation share of TTM sequencer fees",
+    "value": 0.5231570070844499
+  },
+  "cust_etherfi_app_revenue_usd": {
+    "note": "ether.fi app revenue (DefiLlama) since 2026-04-09, not a full year",
+    "value": 7058320.66
+  },
+  "cust_etherfi_first_day": {
+    "note": "first day DefiLlama reports ether.fi fees on OP Mainnet",
+    "value": "2026-04-09"
+  },
+  "cust_etherfi_op_take": {
+    "note": "ether.fi sequencer fees paid to OP / ether.fi app revenue",
+    "value": 0.011389850691136372
+  },
+  "cust_etherfi_top_since": {
+    "note": "first month from which ether.fi is the #1 app by monthly sequencer fees in every month to date",
+    "value": "April 2026"
+  },
+  "cust_low_sender_share": {
+    "note": "share of TTM fees paid to addresses whose median daily distinct senders <= 10",
+    "value": 0.5401714720764687
+  },
+  "cust_matched_op_take": {
+    "note": "sequencer fees / app revenue over matched protocols with revenue >= $1,000, excluding Circle (USDC transfers vs CCTP revenue)",
+    "value": 0.010105232187754998
+  },
+  "cust_n_apps_80pct": {
+    "note": "number of top apps that together pay 80% of all TTM sequencer fees",
+    "value": 84
+  },
+  "cust_n_apps_ttm": {
+    "note": "apps with TTM sequencer fees > 0, excluding the 'other' long tail",
+    "value": 696
+  },
+  "cust_named_coverage": {
+    "note": "share of TTM sequencer fees mapped to a named app (after overrides); denominator includes long tail",
+    "value": 0.3738050285575806
+  },
+  "cust_named_coverage_before": {
+    "note": "same, labels only (before overrides)",
+    "value": 0.1746601267321786
+  },
+  "cust_other_share": {
+    "note": "long tail ('other' row in file 06) share of TTM sequencer fees",
+    "value": 0.10772187793252805
+  },
+  "cust_other_share_jun_aug_2026": {
+    "note": "long-tail share of monthly fees, mean of Jun-Aug 2026",
+    "value": 0.10975449787727838
+  },
+  "cust_other_share_sep_nov_2025": {
+    "note": "long-tail share of monthly fees, mean of Sep-Nov 2025",
+    "value": 0.09615572155989693
+  },
+  "cust_overrides_n": {
+    "note": "addresses in data/overrides/address_overrides.csv",
+    "value": 32.0
+  },
+  "cust_overrides_named": {
+    "note": "overrides assigned a named app with explicit explorer evidence; rest are behaviour-only unlabeled-<hex>",
+    "value": 3.0
+  },
+  "cust_stablecoin_share": {
+    "note": "segment stablecoin_payments share of TTM fees (Tether, Circle, ether.fi Cash)",
+    "value": 0.10228676518113333
+  },
+  "cust_stablecoin_share_aug_2026": {
+    "note": "stablecoins & payments share of August 2026 fees (last full month)",
+    "value": 0.4067828197858826
+  },
+  "cust_top10_share": {
+    "note": "top 10 apps' share of all TTM sequencer fees (denominator incl. long tail)",
+    "value": 0.43740741479212975
+  },
+  "cust_top1_share": {
+    "note": "largest TTM fee payer (wintermute; 'wintermute' is inferred, see overrides): its share of all TTM sequencer fees",
+    "value": 0.14311837920283116
+  },
+  "cust_top3_app_revenue_share": {
+    "note": "top 3 protocols' share of file 08 TTM app revenue",
+    "value": 0.7612895771702249
+  },
+  "cust_top_app_pnl_table": {
+    "note": "top 10 protocols by TTM app revenue vs sequencer fees their txs paid OP",
+    "value": [
+      {
+        "app": "ether.fi",
+        "app_revenue_usd": 7058321,
+        "category": "crypto-card-issuer",
+        "op_take_of_revenue": 0.0114,
+        "paid_to_op_usd": 80393
+      },
+      {
+        "app": "Velodrome",
+        "app_revenue_usd": 3347819,
+        "category": "dexs",
+        "op_take_of_revenue": 0.0023,
+        "paid_to_op_usd": 7554
+      },
+      {
+        "app": "Tria",
+        "app_revenue_usd": 2868596,
+        "category": "crypto-card-issuer",
+        "op_take_of_revenue": null,
+        "paid_to_op_usd": null
+      },
+      {
+        "app": "Overtime",
+        "app_revenue_usd": 1097806,
+        "category": "prediction-market",
+        "op_take_of_revenue": 0.0019,
+        "paid_to_op_usd": 2036
+      },
+      {
+        "app": "Farcaster",
+        "app_revenue_usd": 597893,
+        "category": "sofi",
+        "op_take_of_revenue": 0.0031,
+        "paid_to_op_usd": 1865
+      },
+      {
+        "app": "Aave",
+        "app_revenue_usd": 281574,
+        "category": "lending",
+        "op_take_of_revenue": 0.0021,
+        "paid_to_op_usd": 596
+      },
+      {
+        "app": "Uniswap",
+        "app_revenue_usd": 266066,
+        "category": "dexs",
+        "op_take_of_revenue": 0.1002,
+        "paid_to_op_usd": 26672
+      },
+      {
+        "app": "Veda",
+        "app_revenue_usd": 238892,
+        "category": "onchain-capital-allocator",
+        "op_take_of_revenue": null,
+        "paid_to_op_usd": null
+      },
+      {
+        "app": "Hyperlane",
+        "app_revenue_usd": 171233,
+        "category": "cross-chain-bridge",
+        "op_take_of_revenue": 0.0021,
+        "paid_to_op_usd": 352
+      },
+      {
+        "app": "Human (Holonym)",
+        "app_revenue_usd": 144071,
+        "category": "identity-reputation",
+        "op_take_of_revenue": 0.0005,
+        "paid_to_op_usd": 72
+      }
+    ]
+  },
+  "cust_tvl_ttm_start_usd": {
+    "note": "headline TVL on 2025-09-15, the day before the TTM starts",
+    "value": 452256812.20660156
+  },
+  "cust_wintermute_ttm_share": {
+    "note": "Wintermute (inferred) share of all TTM sequencer fees",
+    "value": 0.14311837920283116
+  },
+  "growth_12m_baseline_usd": {
+    "note": "sum of 12 baseline months (= growth_baseline_net_usd)",
+    "value": 593559.3584591647
+  },
+  "growth_12m_total_r25_usd": {
+    "note": "12-month net, 2^24 floor live from month 4, 25% high-frequency retained",
+    "value": 1895380.277357628
+  },
+  "growth_12m_total_r50_usd": {
+    "note": "12-month net, 2^24 floor live from month 4, 50% high-frequency retained",
+    "value": 2800879.9352424904
+  },
+  "growth_activation_months": {
+    "note": "assumed governance lead before the floor is live",
+    "value": 3
+  },
+  "growth_baseline_eth_per_day": {
+    "note": "Jun\u2013Aug 2026 net (execution fees) ETH per day",
+    "value": 0.8654485108695655
+  },
+  "growth_baseline_net_usd": {
+    "note": "Jun\u2013Aug 2026 net annualised, USD at period fee-weighted price",
+    "value": 593559.3584591647
+  },
+  "growth_botlike_gas_price_gwei": {
+    "note": "Jun\u2013Aug 2026 execution gas price paid by bot-like traffic",
+    "value": 0.0008947160455244983
+  },
+  "growth_botlike_gas_share": {
+    "note": "Jun\u2013Aug 2026 share of gas from bot-like destinations",
+    "value": 0.8362436320104353
+  },
+  "growth_dex_volume_eth_change": {
+    "note": "DEX volume in ETH per day, Jun\u2013Aug 2026 vs Jan\u2013Mar 2025",
+    "value": -0.7347491060045446
+  },
+  "growth_eth_usd": {
+    "note": "fee-weighted ETH price, Jun\u2013Aug 2026 (file 01 total_fee_usd / total_fee_eth)",
+    "value": 1879.0141790663754
+  },
+  "growth_etherfi_cost_share_at_floor": {
+    "note": "ether.fi fees at the 2^24 floor since 2026-04-09 / DefiLlama revenue since 2026-04-09",
+    "value": 0.034050017533407244
+  },
+  "growth_etherfi_net_eth_per_year": {
+    "note": "ether.fi Jun\u2013Aug 2026 execution fees (net) annualised x365/92",
+    "value": 89.73341309782603
+  },
+  "growth_fees_dex_corr": {
+    "note": "Pearson correlation, monthly file 01 total fee ETH vs DEX volume in ETH (file 09 USD / daily price), Jan 2025\u2013Aug 2026; largely a shared downtrend",
+    "value": 0.9435452349083748
+  },
+  "growth_floor24_multiple_r0": {
+    "note": "notebooks/03_growth: floor model on Jun\u2013Aug 2026 (run-rate) payer groups from contract_activity, annualised; net = execution fees (internal basis); net with the floor / net today, if no high-frequency traffic stays",
+    "value": 1.8902704346030252
+  },
+  "growth_floor24_uplift_usd_r25": {
+    "note": "notebooks/03_growth: floor model on Jun\u2013Aug 2026 (run-rate) payer groups from contract_activity, annualised; net = execution fees (internal basis); high-frequency retention 25%",
+    "value": 1735761.225197951
+  },
+  "growth_floor24_uplift_usd_r50": {
+    "note": "notebooks/03_growth: floor model on Jun\u2013Aug 2026 (run-rate) payer groups from contract_activity, annualised; net = execution fees (internal basis); high-frequency retention 50%",
+    "value": 2943094.1023777677
+  },
+  "growth_floor24_uplift_usd_r50_other75": {
+    "note": "2^24 floor, bots 50%, other traffic 75% retained",
+    "value": 2708295.2862521242
+  },
+  "growth_floor_arb_uplift_usd_r50": {
+    "note": "notebooks/03_growth: floor model on Jun\u2013Aug 2026 (run-rate) payer groups from contract_activity, annualised; net = execution fees (internal basis); floor = 20,000,000 wei, high-frequency retention 50%",
+    "value": 3587346.9766217913
+  },
+  "growth_floor_arb_wei": {
+    "note": "Arbitrum One gas price floor 0.02 gwei since ArbOS 51 (2026-01-08); docs.arbitrum.io/for-devs/chain-params",
+    "value": 20000000
+  },
+  "growth_floor_base_uplift_usd_r50": {
+    "note": "notebooks/03_growth: floor model on Jun\u2013Aug 2026 (run-rate) payer groups from contract_activity, annualised; net = execution fees (internal basis); floor = 5,000,000 wei, high-frequency retention 50%",
+    "value": 588761.5567921175
+  },
+  "growth_floor_base_wei": {
+    "note": "Base mainnet minimum base fee since 2026-02-19 (docs.base.org configuration changelog)",
+    "value": 5000000
+  },
+  "growth_floor_fee_per_tx_usd": {
+    "note": "fee per tx (execution + L1 data fee) at the 2^24 floor, full retention, Jun\u2013Aug 2026 gas mix, priced at the TTM fee-weighted ETH price so it compares with rev_peer_*_fee_per_tx_usd",
+    "value": 0.015396222125850798
+  },
+  "growth_floor_gwei": {
+    "note": "2^24 wei in gwei, the recommended floor",
+    "value": 0.016777216
+  },
+  "growth_floor_op_vs_arb_multiple": {
+    "note": "2^24 wei / Arbitrum's 20,000,000 wei floor",
+    "value": 0.8388608
+  },
+  "growth_floor_op_vs_base_multiple": {
+    "note": "2^24 wei / Base's 5,000,000 wei floor",
+    "value": 3.3554432
+  },
+  "growth_floor_opdocs_wei": {
+    "note": "OP operator guide suggested minBaseFee (https://docs.optimism.io/chain-operators/guides/features/setting-min-base-fee)",
+    "value": 100000
+  },
+  "growth_floor_price_multiple_botlike": {
+    "note": "floor / bot-like gas price today",
+    "value": 18.751441961862774
+  },
+  "growth_l1_gap_usd": {
+    "note": "annual gain from full L1 fee recovery: (growthepie rent_paid - L1 data fee charged), Jun\u2013Aug 2026 x365/92, period price",
+    "value": 22577.802191311577
+  },
+  "growth_l1_recovery": {
+    "note": "Jun\u2013Aug 2026 L1 data fee charged (file 01) / L1 cost paid (growthepie rent_paid_eth)",
+    "value": 0.25697541409467006
+  },
+  "growth_lever_payments_eth": {
+    "note": "ETH a year: ether.fi Jun\u2013Aug 2026 net run-rate x 50% growth (ether.fi grows by half, or a half-size payments app joins); today's price",
+    "value": 44.866706548913015
+  },
+  "growth_lever_payments_growth": {
+    "note": "payments lever base-case growth (low 0%, high 100%)",
+    "value": 0.5
+  },
+  "growth_lever_payments_usd": {
+    "note": "growth_lever_payments_eth at the Jun\u2013Aug 2026 fee-weighted ETH price",
+    "value": 84305.17777341776
+  },
+  "growth_lever_pricing_eth": {
+    "note": "ETH a year: 2^24 floor full-year uplift at 25% high-frequency retention + full L1 fee recovery (run-rate)",
+    "value": 935.7774129532793
+  },
+  "growth_lever_pricing_usd": {
+    "note": "growth_lever_pricing_eth at the Jun\u2013Aug 2026 fee-weighted ETH price",
+    "value": 1758339.0273892626
+  },
+  "growth_lever_trading_eth": {
+    "note": "ETH a year: run-rate net x trading segments' share x 25% volume growth; fees assumed to move one for one with volume",
+    "value": 37.62918099655224
+  },
+  "growth_lever_trading_growth": {
+    "note": "trading lever base-case volume growth (low 0%, high 50%)",
+    "value": 0.25
+  },
+  "growth_lever_trading_share": {
+    "note": "Jun\u2013Aug 2026 share of net (execution fees) from segments bots_automation, unlabeled, dex, cex",
+    "value": 0.4764865628450269
+  },
+  "growth_lever_trading_usd": {
+    "note": "growth_lever_trading_eth at the Jun\u2013Aug 2026 fee-weighted ETH price",
+    "value": 70705.76463917666
+  },
+  "growth_month12_eth_per_day_r25": {
+    "note": "month 12 net ETH per day = scenario annual net ETH / 365",
+    "value": 3.396302327196088
+  },
+  "growth_month12_eth_per_day_r50": {
+    "note": "month 12 net ETH per day = scenario annual net ETH / 365",
+    "value": 5.15667292162422
+  },
+  "growth_net_eth_per_month_now": {
+    "note": "Jun\u2013Aug 2026 net (execution fees) annualised / 12",
+    "value": 26.32405887228262
+  },
+  "growth_net_eth_per_month_target": {
+    "note": "now + (pricing + payments + trading levers) / 12",
+    "value": 111.180167247178
+  },
+  "growth_net_usd_per_year_target": {
+    "note": "net a year with the three levers in place (25% case), Jun\u2013Aug 2026 ETH price",
+    "value": 2506909.328261022
+  },
+  "growth_other_share_of_uplift": {
+    "note": "uplift from other traffic alone / uplift at bots 50%",
+    "value": 0.1795485735883228
+  },
+  "growth_priority_exec_share": {
+    "note": "Jun\u2013Aug 2026 share of execution fees from priority bidders",
+    "value": 0.30796149023054087
+  },
+  "growth_priority_gas_share": {
+    "note": "Jun\u2013Aug 2026 share of gas from priority bidders",
+    "value": 0.0011259795524455629
+  },
+  "growth_target_multiple": {
+    "note": "net with the three levers / net today",
+    "value": 4.2235191687799665
+  },
+  "rev_active_addresses_change": {
+    "note": "files 03 (active addresses), 04 (new addresses), 14 (CEX deposits + withdrawals, USD); per day by period",
+    "value": -0.6794320507443301
+  },
+  "rev_active_addresses_prior_per_day": {
+    "note": "files 03 (active addresses), 04 (new addresses), 14 (CEX deposits + withdrawals, USD); per day by period",
+    "value": 92706.61627906977
+  },
+  "rev_active_addresses_ttm_per_day": {
+    "note": "files 03 (active addresses), 04 (new addresses), 14 (CEX deposits + withdrawals, USD); per day by period",
+    "value": 29718.7698630137
+  },
+  "rev_app_fees_growth_pct": {
+    "note": "app_fees USD/day TTM vs prior",
+    "value": 0.04955361063128061
+  },
+  "rev_app_fees_without_revenue_share": {
+    "note": "app_fees TTM fee_usd on rows with null revenue_usd / all fee_usd (app revenue is a lower bound)",
+    "value": 0.07329949753642644
+  },
+  "rev_app_revenue_vs_net_multiple": {
+    "note": "TTM app revenue / TTM OP net USD (internal basis)",
+    "value": 14.1100406591424
+  },
+  "rev_botlike_fee_eth_per_day_prior": {
+    "note": "contract_activity payer groups by period; total fee ETH/day to bot-like address-days",
+    "value": 0.42251902713178313
+  },
+  "rev_botlike_fee_eth_per_day_ttm": {
+    "note": "contract_activity payer groups by period; total fee ETH/day to bot-like address-days",
+    "value": 0.3418594493150684
+  },
+  "rev_bridge_fee_per_tx_usd_per_day": {
+    "note": "LMDI on prior->ttm period stats, gross USD/day; fee ETH per tx (steps 3-5)",
+    "value": -12342.836261077853
+  },
+  "rev_bridge_volume_usd_per_day": {
+    "note": "LMDI on prior->ttm period stats, gross USD/day",
+    "value": 3615.0937944613984
+  },
+  "rev_cex_flows_change": {
+    "note": "files 03 (active addresses), 04 (new addresses), 14 (CEX deposits + withdrawals, USD); per day by period",
+    "value": -0.4246917388116891
+  },
+  "rev_deployers_change_at_target_change": {
+    "note": "file 05, 23 Apr-6 May vs 7-20 May 2025 (gas target 10M -> 15M on 7 May)",
+    "value": 0.23178859876107594
+  },
+  "rev_deployments_per_day_after_target_change": {
+    "note": "file 05, 23 Apr-6 May vs 7-20 May 2025 (gas target 10M -> 15M on 7 May)",
+    "value": 513452.35714285716
+  },
+  "rev_deployments_per_day_before_target_change": {
+    "note": "file 05, 23 Apr-6 May vs 7-20 May 2025 (gas target 10M -> 15M on 7 May)",
+    "value": 75903.28571428571
+  },
+  "rev_events_table": {
+    "note": "data/events.csv (web-sourced dates) + months > 1.5x the prior-3-month median with no matching event; effect from file 01/06, headers, growthepie",
+    "value": [
+      {
+        "date": "2025-02-03",
+        "effect_seen_in_data": "exec fees 42.8 ETH/day, 11x the prior-week median",
+        "kind": "market",
+        "label": "Tariff sell-off, ETH -20%, $1.8B liquidated",
+        "source": "https://www.theblock.co/news/markets/2025-02-02-crypto-sees-over-1-7-billion-liquidated-in-past-day-as-trump-tariffs-dampen-overleveraged-bullish-sentiment-338416"
+      },
+      {
+        "date": "2025-04-07",
+        "effect_seen_in_data": "exec fees 25.2 ETH/day, 8x the prior-week median",
+        "kind": "market",
+        "label": "Liberation Day tariff crash, $1.4B liquidated",
+        "source": "https://cointelegraph.com/news/whale-14-m-emergency-deposit-avoid-340-m-eth-liquidation"
+      },
+      {
+        "date": "2025-05-07",
+        "effect_seen_in_data": "L1 data fee/tx -88% (30 d after vs before)",
+        "kind": "protocol",
+        "label": "Ethereum Pectra: blob target 3 to 6",
+        "source": "https://blog.ethereum.org/2025/04/23/pectra-mainnet"
+      },
+      {
+        "date": "2025-05-07",
+        "effect_seen_in_data": "gas price excl. bidders -46% (30 d after vs before)",
+        "kind": "protocol",
+        "label": "OP gas target 10M to 15M (elasticity 6 to 4)",
+        "source": "https://optimistic.etherscan.io/block/135513415"
+      },
+      {
+        "date": "2025-05-09",
+        "effect_seen_in_data": "2 days after the gas-target change; effect not separable",
+        "kind": "protocol",
+        "label": "OP Isthmus hardfork",
+        "source": "https://docs.optimism.io/notices/upgrade-15"
+      },
+      {
+        "date": "2025-05-22",
+        "effect_seen_in_data": "gas price excl. bidders -43% (30 d after vs before)",
+        "kind": "protocol",
+        "label": "OP gas target 15M to 20M (limit 40M, elasticity 2)",
+        "source": "https://optimistic.etherscan.io/block/136165875"
+      },
+      {
+        "date": "2025-10-10",
+        "effect_seen_in_data": "exec fees 56.9 ETH/day, 53x the prior-week median",
+        "kind": "market",
+        "label": "Record $19B liquidation crash",
+        "source": "https://decrypt.co/343941/bitcoin-ethereum-dogecoin-down-record-19-billion-crypto-liquidations"
+      },
+      {
+        "date": "2025-12-02",
+        "effect_seen_in_data": "OP minBaseFee left at 0 (no floor); no fee step",
+        "kind": "protocol",
+        "label": "OP Jovian: minBaseFee field added (set to 0)",
+        "source": "https://docs.optimism.io/notices/upgrade-17"
+      },
+      {
+        "date": "2025-12-03",
+        "effect_seen_in_data": "L1 data fee/tx -71% (30 d after vs before)",
+        "kind": "protocol",
+        "label": "Ethereum Fusaka (PeerDAS)",
+        "source": "https://blog.ethereum.org/2025/11/06/fusaka-mainnet-announcement"
+      },
+      {
+        "date": "2025-12-04",
+        "effect_seen_in_data": "Base fee/tx -21% (30 d after vs before, growthepie)",
+        "kind": "protocol",
+        "label": "Base minimum base fee enabled (200,000 wei)",
+        "source": "https://docs.base.org/base-chain/network-information/configuration-changelog"
+      },
+      {
+        "date": "2025-12-09",
+        "effect_seen_in_data": "L1 data fee/tx -61% (30 d after vs before)",
+        "kind": "protocol",
+        "label": "Ethereum BPO1: blob target 6 to 10",
+        "source": "https://blog.ethereum.org/2025/11/06/fusaka-mainnet-announcement"
+      },
+      {
+        "date": "2026-01-07",
+        "effect_seen_in_data": "L1 data fee/tx +66% (30 d after vs before)",
+        "kind": "protocol",
+        "label": "Ethereum BPO2: blob target 10 to 14",
+        "source": "https://blog.ethereum.org/2025/11/06/fusaka-mainnet-announcement"
+      },
+      {
+        "date": "2026-01-31",
+        "effect_seen_in_data": "exec fees 6.8 ETH/day, 9x the prior-week median",
+        "kind": "market",
+        "label": "Liquidation cascade, $2.5B, ETH -15%",
+        "source": "https://www.falconx.io/newsroom/unpacking-the-january-31-liquidation-cascade"
+      },
+      {
+        "date": "2026-02-05",
+        "effect_seen_in_data": "exec fees 14.0 ETH/day, 7x the prior-week median",
+        "kind": "market",
+        "label": "BTC -13% day, sell-off deepens",
+        "source": "https://aljazeera.com/economy/2026/2/5/bitcoin-plunge-continues-erasing-gains-since-trumps-election"
+      },
+      {
+        "date": "2026-02-19",
+        "effect_seen_in_data": "Base fee/tx -29% (30 d after vs before, growthepie)",
+        "kind": "protocol",
+        "label": "Base minimum base fee raised to 5,000,000 wei",
+        "source": "https://docs.base.org/base-chain/network-information/configuration-changelog"
+      },
+      {
+        "date": "2026-06-04",
+        "effect_seen_in_data": "exec fees 5.4 ETH/day, 7x the prior-week median",
+        "kind": "market",
+        "label": "BTC slide to $61K, $1.5B liquidated",
+        "source": "https://news.bloomberglaw.com/crypto/crypto-liquidations-top-1-billion-as-bitcoins-slide-deepens"
+      }
+    ]
+  },
+  "rev_fee_per_tx_decline_pct": {
+    "note": "pnl_daily by period; USD per tx",
+    "value": 0.8270832356453965
+  },
+  "rev_fee_per_tx_prior_usd": {
+    "note": "pnl_daily by period",
+    "value": 0.011279408571410134
+  },
+  "rev_fee_per_tx_ttm_usd": {
+    "note": "pnl_daily by period",
+    "value": 0.0019503988340018204
+  },
+  "rev_gas_per_tx_prior": {
+    "note": "pnl_daily by period",
+    "value": 555360.0587029945
+  },
+  "rev_gas_per_tx_ttm": {
+    "note": "pnl_daily by period",
+    "value": 362506.58398355806
+  },
+  "rev_gas_price_prior_gwei": {
+    "note": "pnl_daily by period; execution fee / gas used",
+    "value": 0.006669582044321812
+  },
+  "rev_gas_price_ttm_gwei": {
+    "note": "pnl_daily by period; execution fee / gas used",
+    "value": 0.0018141099793389443
+  },
+  "rev_gas_target_after": {
+    "note": "op_block_headers from 2025-05-22: 40M limit / elasticity 2",
+    "value": 20000000.0
+  },
+  "rev_gas_target_before": {
+    "note": "op_block_headers: 60M limit / elasticity 6",
+    "value": 10000000.0
+  },
+  "rev_gross_first_to_last3m_multiple": {
+    "note": "Jan-Mar 2025 vs Jun-Aug 2026 gross USD/day",
+    "value": 10.122221070938817
+  },
+  "rev_l1_recovery_prior": {
+    "note": "pnl_daily prior; L1 data fee charged to users / growthepie rent_paid (ETH)",
+    "value": 1.109528413356866
+  },
+  "rev_l1_recovery_ttm": {
+    "note": "pnl_daily ttm; L1 data fee charged to users / growthepie rent_paid (ETH)",
+    "value": 0.2980973144892216
+  },
+  "rev_median_base_fee_share_of_gas_price": {
+    "note": "op_block_headers median base fee (prior samples) / prior effective execution gas price",
+    "value": 0.0002875742418721576
+  },
+  "rev_min_base_fee_wei": {
+    "note": "op_block_headers, minBaseFee in the latest sampled header (Jovian field)",
+    "value": 0
+  },
+  "rev_net_decline_pct": {
+    "note": "pnl_daily by period; net USD/day TTM vs prior",
+    "value": 0.6704124205581744
+  },
+  "rev_net_last3m_usd_per_year": {
+    "note": "pnl_daily, Jun-Aug 2026 net USD/day x 365 (run-rate); internal basis (gross - L1 data fee)",
+    "value": 593509.6690310627
+  },
+  "rev_new_addresses_change": {
+    "note": "files 03 (active addresses), 04 (new addresses), 14 (CEX deposits + withdrawals, USD); per day by period",
+    "value": -0.7182443853964999
+  },
+  "rev_oct_2025_share_of_ttm_gross": {
+    "note": "pnl_daily, Oct 2025 gross USD / TTM gross USD",
+    "value": 0.3310139057431174
+  },
+  "rev_oct_2025_txs_per_day": {
+    "note": "pnl_daily, Oct 2025 txs / days",
+    "value": 1855666.1290322582
+  },
+  "rev_oct_2025_vs_prev3m_multiple": {
+    "note": "pnl_daily, Oct 2025 txs/day / median txs/day of Jul-Sep 2025",
+    "value": 1.5425602775891014
+  },
+  "rev_peer_arb_fee_per_tx_change": {
+    "note": "gtp_metrics fees_paid_eth / txcount, TTM vs prior, excl. 2025-04-13/14",
+    "value": -0.346319782066669
+  },
+  "rev_peer_arb_fee_per_tx_usd": {
+    "note": "gtp_metrics (growthepie USD), exact TTM window daily incl. 1-15 Sep 2026; fees / txcount",
+    "value": 0.018653005714246367
+  },
+  "rev_peer_arb_ttm_profit_usd": {
+    "note": "gtp_metrics (growthepie USD), exact TTM window daily incl. 1-15 Sep 2026",
+    "value": 15583089.90606047
+  },
+  "rev_peer_base_fee_per_tx_change": {
+    "note": "gtp_metrics fees_paid_eth / txcount, TTM vs prior, excl. 2025-04-13/14",
+    "value": -0.2923443822916578
+  },
+  "rev_peer_base_fee_per_tx_multiple": {
+    "note": "gtp_metrics TTM fee per tx Base / OP",
+    "value": 8.042816808537614
+  },
+  "rev_peer_base_fee_per_tx_usd": {
+    "note": "gtp_metrics (growthepie USD), exact TTM window daily incl. 1-15 Sep 2026; fees / txcount",
+    "value": 0.015777796950325045
+  },
+  "rev_peer_base_profit_multiple": {
+    "note": "gtp_metrics TTM profit_eth Base / OP",
+    "value": 55.80875080968386
+  },
+  "rev_peer_base_ttm_profit_usd": {
+    "note": "gtp_metrics (growthepie USD), exact TTM window daily incl. 1-15 Sep 2026",
+    "value": 58597783.29498592
+  },
+  "rev_peer_base_txs_multiple": {
+    "note": "gtp_metrics txcount Base / OP, same exact TTM daily window",
+    "value": 5.820747112023322
+  },
+  "rev_peer_op_fee_per_tx_change": {
+    "note": "gtp_metrics fees_paid_eth / txcount, TTM vs prior, excl. 2025-04-13/14",
+    "value": -0.8400363003539613
+  },
+  "rev_peer_pulled_at": {
+    "note": "data/external/PULLED.txt, growthepie pulled_at_utc",
+    "value": "2026-10-09T11:33:24Z"
+  },
+  "rev_prior_end": {
+    "note": "pnl_daily first/last date of the period",
+    "value": "2025-09-15"
+  },
+  "rev_prior_start": {
+    "note": "pnl_daily first/last date of the period",
+    "value": "2025-01-01"
+  },
+  "rev_priority_bidder_count_prior": {
+    "note": "distinct destinations tagged priority bidder on >= 30 prior-period days",
+    "value": 74
+  },
+  "rev_priority_bidder_named_share_prior": {
+    "note": "prior exec fee on >=0.1 gwei destination-days going to named apps (m_customer_app.app not 'unlabeled-*') / all such fee",
+    "value": 0.6084580036291711
+  },
+  "rev_priority_bidder_table": {
+    "note": "contract_activity x m_customer_app x labels; top 10 destinations by prior-period exec fee on >=0.1 gwei days; share = that / all prior exec fee",
+    "value": [
+      {
+        "address": "0x62d2293e1db885e8ba8eeac7829a7eae26cee15a",
+        "bidder_exec_eth_prior": 213.67491699999988,
+        "display_name": "Wintermute",
+        "entity_project": "wintermute",
+        "exec_eth_prior": 213.67491699999988,
+        "exec_eth_ttm": 0.0,
+        "median_daily_senders": 22.0,
+        "name": "wintermute",
+        "segment": "bots_automation",
+        "share_of_prior_exec": 0.21700469013156728,
+        "tagged_days_prior": 191
+      },
+      {
+        "address": "0x6f1fe5b048de0417c4e838b1fc4245aaf254f1dc",
+        "bidder_exec_eth_prior": 139.783623,
+        "display_name": "Wintermute",
+        "entity_project": "wintermute",
+        "exec_eth_prior": 139.783623,
+        "exec_eth_ttm": 0.0,
+        "median_daily_senders": 22.0,
+        "name": "wintermute",
+        "segment": "bots_automation",
+        "share_of_prior_exec": 0.141961921504258,
+        "tagged_days_prior": 65
+      },
+      {
+        "address": "0x9d603a45321a3adbfcad0e49fd944cc281baa833",
+        "bidder_exec_eth_prior": 29.672969999999992,
+        "display_name": "StrategyExecutor",
+        "entity_project": null,
+        "exec_eth_prior": 29.672969999999992,
+        "exec_eth_ttm": 0.0,
+        "median_daily_senders": 2.0,
+        "name": "unlabeled-9d603a45321a3adbfcad0e49fd944cc281baa833",
+        "segment": "bots_automation",
+        "share_of_prior_exec": 0.030135374570583285,
+        "tagged_days_prior": 131
+      },
+      {
+        "address": "0x1dc68046e71429f646dd6b2d0c02385ae61c2129",
+        "bidder_exec_eth_prior": 28.993163999999997,
+        "display_name": "Order Manager",
+        "entity_project": null,
+        "exec_eth_prior": 28.993163999999997,
+        "exec_eth_ttm": 7.222244000000002,
+        "median_daily_senders": 2.0,
+        "name": "unlabeled-1dc680",
+        "segment": "bots_automation",
+        "share_of_prior_exec": 0.029444974909028348,
+        "tagged_days_prior": 63
+      },
+      {
+        "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+        "bidder_exec_eth_prior": 22.831664,
+        "display_name": "Tether: USDT",
+        "entity_project": "tether",
+        "exec_eth_prior": 32.917270000000016,
+        "exec_eth_ttm": 12.395281000000002,
+        "median_daily_senders": 5600.0,
+        "name": "tether",
+        "segment": "stablecoin_payments",
+        "share_of_prior_exec": 0.02318745803705197,
+        "tagged_days_prior": 92
+      },
+      {
+        "address": "0x0800af460a1b8c8daf01f756de8d9d0a58106701",
+        "bidder_exec_eth_prior": 18.075303000000005,
+        "display_name": "StrategyExecutor",
+        "entity_project": null,
+        "exec_eth_prior": 19.234022000000003,
+        "exec_eth_ttm": 1.7970860000000004,
+        "median_daily_senders": 1.0,
+        "name": "unlabeled-0800af",
+        "segment": "bots_automation",
+        "share_of_prior_exec": 0.018356976951811297,
+        "tagged_days_prior": 211
+      },
+      {
+        "address": "0xeb4378aacdfb7d02a0c9accfac2e90ad545ad62a",
+        "bidder_exec_eth_prior": 10.956603999999999,
+        "display_name": "StrategyExecutor",
+        "entity_project": null,
+        "exec_eth_prior": 14.200057999999997,
+        "exec_eth_ttm": 4.327166999999999,
+        "median_daily_senders": 1.0,
+        "name": "unlabeled-eb4378",
+        "segment": "bots_automation",
+        "share_of_prior_exec": 0.011127344703329364,
+        "tagged_days_prior": 139
+      },
+      {
+        "address": "0x3f220661e77f9fb98a4e32745d02fbae6b25038b",
+        "bidder_exec_eth_prior": 10.146928,
+        "display_name": null,
+        "entity_project": null,
+        "exec_eth_prior": 10.146928,
+        "exec_eth_ttm": 0.0,
+        "median_daily_senders": 1.0,
+        "name": "unlabeled-3f220661e77f9fb98a4e32745d02fbae6b25038b",
+        "segment": "unlabeled",
+        "share_of_prior_exec": 0.010305051230825212,
+        "tagged_days_prior": 12
+      },
+      {
+        "address": "0x38edf0a0d32b5c8e23284da87d078062a3f772a7",
+        "bidder_exec_eth_prior": 10.105376,
+        "display_name": "Router",
+        "entity_project": null,
+        "exec_eth_prior": 13.208527,
+        "exec_eth_ttm": 0.556296,
+        "median_daily_senders": 2.0,
+        "name": "unlabeled-38edf0a0d32b5c8e23284da87d078062a3f772a7",
+        "segment": "bridge_messaging",
+        "share_of_prior_exec": 0.010262851711054967,
+        "tagged_days_prior": 64
+      },
+      {
+        "address": "0xd55267afff150a456ba41553eeac9dac635f05d6",
+        "bidder_exec_eth_prior": 9.222224999999993,
+        "display_name": "StrategyExecutor",
+        "entity_project": null,
+        "exec_eth_prior": 9.222224999999993,
+        "exec_eth_ttm": 2.314545,
+        "median_daily_senders": 1.0,
+        "name": "unlabeled-d55267",
+        "segment": "bots_automation",
+        "share_of_prior_exec": 0.00936593825118272,
+        "tagged_days_prior": 205
+      }
+    ]
+  },
+  "rev_priority_exec_eth_per_day_dec_2025": {
+    "note": "contract_activity, dec_2025; exec fee ETH/day from >=0.1 gwei address-days",
+    "value": 0.2147622580645161
+  },
+  "rev_priority_exec_eth_per_day_jun_aug_2025": {
+    "note": "contract_activity, jun_aug_2025; exec fee ETH/day from >=0.1 gwei address-days",
+    "value": 1.6423293043478253
+  },
+  "rev_priority_exec_eth_per_day_oct_2025": {
+    "note": "contract_activity, oct_2025; exec fee ETH/day from >=0.1 gwei address-days",
+    "value": 1.9748938064516124
+  },
+  "rev_priority_exec_eth_per_day_q1_2025": {
+    "note": "contract_activity, q1_2025; exec fee ETH/day from >=0.1 gwei address-days",
+    "value": 3.9959617555555553
+  },
+  "rev_priority_exec_share_prior": {
+    "note": "contract_activity payer groups by period; exec fee from >=0.1 gwei address-days",
+    "value": 0.7284218452569754
+  },
+  "rev_priority_exec_share_ttm": {
+    "note": "contract_activity payer groups by period; exec fee from >=0.1 gwei address-days",
+    "value": 0.4718849584672904
+  },
+  "rev_priority_share_of_exec_decline": {
+    "note": "contract_activity payer groups by period; share of the fall in execution fee ETH/day from priority bidders",
+    "value": 0.8404764538777039
+  },
+  "rev_priority_share_of_exec_decline_at_0p05gwei": {
+    "note": "contract_activity; exec fee ETH/day fall from address-days >= 0.05 gwei, prior->TTM",
+    "value": 0.8709606435117219
+  },
+  "rev_priority_share_of_exec_decline_at_0p2gwei": {
+    "note": "contract_activity; exec fee ETH/day fall from address-days >= 0.2 gwei, prior->TTM",
+    "value": 0.8012626325972388
+  },
+  "rev_priority_share_of_exec_decline_at_0p5gwei": {
+    "note": "contract_activity; exec fee ETH/day fall from address-days >= 0.5 gwei, prior->TTM",
+    "value": 0.7495362707155286
+  },
+  "rev_priority_tx_share_prior": {
+    "note": "contract_activity payer groups by period; txs to >=0.1 gwei address-days",
+    "value": 0.030449764742624792
+  },
+  "rev_take_rate_on_app_fees": {
+    "note": "TTM OP net USD (internal basis) / TTM app fees",
+    "value": 0.029956551570480258
+  },
+  "rev_take_rate_on_app_fees_prior": {
+    "note": "prior OP net USD/day (internal basis) / prior app fees USD/day",
+    "value": 0.09539499915654213
+  },
+  "rev_take_rate_on_app_revenue": {
+    "note": "TTM OP net USD (internal basis) / TTM app revenue; upper bound (revenue missing for 7.3% of TTM app fees)",
+    "value": 0.0708715179606562
+  },
+  "rev_target_utilisation_before": {
+    "note": "pnl_daily gas_used / (days x 43,200 blocks) vs header gas target, 1 Jan-6 May 2025",
+    "value": 0.8890090596423795
+  },
+  "rev_target_utilisation_ttm": {
+    "note": "pnl_daily gas_used / (days x 43,200 blocks) vs header gas target, TTM",
+    "value": 0.7402416194157376
+  },
+  "rev_tip_step1_cex_flows_change": {
+    "note": "payers (>= 0.1 gwei destination-days), contract_activity, files 09 and 14; median of 14 days from the step day / 14 days before - 1",
+    "value": -0.43524112329489173
+  },
+  "rev_tip_step1_day": {
+    "note": "day of the largest 14-day fall in bidder tips, November 2025",
+    "value": "2025-11-26"
+  },
+  "rev_tip_step1_dex_volume_change": {
+    "note": "payers (>= 0.1 gwei destination-days), contract_activity, files 09 and 14; median of 14 days from the step day / 14 days before - 1",
+    "value": -0.3532451537351141
+  },
+  "rev_tip_step1_tips_change": {
+    "note": "payers (>= 0.1 gwei destination-days), contract_activity, files 09 and 14; median of 14 days from the step day / 14 days before - 1",
+    "value": -0.44424607532052485
+  },
+  "rev_tip_step1_wintermute_txs_change": {
+    "note": "payers (>= 0.1 gwei destination-days), contract_activity, files 09 and 14; median of 14 days from the step day / 14 days before - 1",
+    "value": -0.41004664763628773
+  },
+  "rev_tip_step2_cex_flows_change": {
+    "note": "payers (>= 0.1 gwei destination-days), contract_activity, files 09 and 14; median of 14 days from the step day / 14 days before - 1",
+    "value": 0.03521000668247476
+  },
+  "rev_tip_step2_day": {
+    "note": "day of the largest 14-day fall in bidder tips, December 2025",
+    "value": "2025-12-21"
+  },
+  "rev_tip_step2_dex_volume_change": {
+    "note": "payers (>= 0.1 gwei destination-days), contract_activity, files 09 and 14; median of 14 days from the step day / 14 days before - 1",
+    "value": -0.3714702301662379
+  },
+  "rev_tip_step2_tips_change": {
+    "note": "payers (>= 0.1 gwei destination-days), contract_activity, files 09 and 14; median of 14 days from the step day / 14 days before - 1",
+    "value": -0.4875406819955602
+  },
+  "rev_tip_step2_wintermute_txs_change": {
+    "note": "payers (>= 0.1 gwei destination-days), contract_activity, files 09 and 14; median of 14 days from the step day / 14 days before - 1",
+    "value": -0.5309532096862414
+  },
+  "rev_ttm_app_fees_usd": {
+    "note": "app_fees (file 08), TTM window",
+    "value": 41253034.72370044
+  },
+  "rev_ttm_app_revenue_usd": {
+    "note": "app_fees (file 08), TTM window; revenue_usd null rows count as 0",
+    "value": 17437169.369299944
+  },
+  "rev_ttm_gross_usd": {
+    "note": "pnl_daily, TTM window",
+    "value": 1255994.206187422
+  },
+  "rev_ttm_l1_cost_gtp_usd": {
+    "note": "pnl_daily, TTM window; growthepie basis (L1 cost = growthepie rent_paid_eth, what OP paid Ethereum)",
+    "value": 65347.14425160071
+  },
+  "rev_ttm_l1_cost_usd": {
+    "note": "pnl_daily, TTM window; internal basis (L1 cost = L1 data fee charged, net = execution fee)",
+    "value": 20195.54404807357
+  },
+  "rev_ttm_net_eth": {
+    "note": "pnl_daily, TTM window; internal basis (L1 cost = L1 data fee charged, net = execution fee)",
+    "value": 423.4905450000002
+  },
+  "rev_ttm_net_gtp_usd": {
+    "note": "pnl_daily, TTM window; growthepie basis (L1 cost = growthepie rent_paid_eth, what OP paid Ethereum)",
+    "value": 1190647.0619358188
+  },
+  "rev_ttm_net_usd": {
+    "note": "pnl_daily, TTM window; internal basis (L1 cost = L1 data fee charged, net = execution fee)",
+    "value": 1235798.6621393452
+  },
+  "rev_txs_growth_pct": {
+    "note": "pnl_daily by period; txs/day TTM vs prior",
+    "value": 0.7122987678432642
+  },
+  "rev_txs_per_active_address_prior": {
+    "note": "files 03 (active addresses), 04 (new addresses), 14 (CEX deposits + withdrawals, USD); per day by period; fee-paying txs / active addresses",
+    "value": 11.114273221762728
+  },
+  "rev_txs_per_active_address_ttm": {
+    "note": "files 03 (active addresses), 04 (new addresses), 14 (CEX deposits + withdrawals, USD); per day by period; fee-paying txs / active addresses",
+    "value": 59.3663726747664
+  },
+  "rev_txs_prior_per_day": {
+    "note": "pnl_daily by period",
+    "value": 1030366.6627906977
+  },
+  "rev_txs_ttm_per_day": {
+    "note": "pnl_daily by period",
+    "value": 1764295.5671232876
+  },
+  "rev_window_end": {
+    "note": "pnl_daily first/last date of the period",
+    "value": "2026-09-15"
+  },
+  "rev_window_start": {
+    "note": "pnl_daily first/last date of the period",
+    "value": "2025-09-16"
+  },
+  "rev_wintermute_contracts_table": {
+    "note": "contract_activity x labels; the two entity_project='wintermute' contracts + inferred successor 0x1ef354; txs/day per active day",
+    "value": [
+      {
+        "active_days": 65,
+        "address": "0x6f1fe5b048de0417c4e838b1fc4245aaf254f1dc",
+        "deployed_date": "2024-10-04",
+        "exec_eth_prior": 139.783623,
+        "exec_eth_ttm": 0.0,
+        "first_active": "2025-01-01",
+        "gas_per_tx": 186248.15221597816,
+        "identified_by": "Allium entity_project = wintermute",
+        "last_active": "2025-03-06",
+        "median_effective_gwei": 1.3826029192135867,
+        "txs_per_active_day": 6972.784615384616
+      },
+      {
+        "active_days": 191,
+        "address": "0x62d2293e1db885e8ba8eeac7829a7eae26cee15a",
+        "deployed_date": "2025-03-04",
+        "exec_eth_prior": 213.67491699999988,
+        "exec_eth_ttm": 0.0,
+        "first_active": "2025-03-06",
+        "gas_per_tx": 186086.6257882538,
+        "identified_by": "Allium entity_project = wintermute",
+        "last_active": "2025-09-12",
+        "median_effective_gwei": 1.239961950453201,
+        "txs_per_active_day": 5111.869109947644
+      },
+      {
+        "active_days": 370,
+        "address": "0x1ef354f86058c1f4af8b8b1f3ff0c2fc31d539e9",
+        "deployed_date": "2025-09-08",
+        "exec_eth_prior": 1.568373,
+        "exec_eth_ttm": 52.748873000000046,
+        "first_active": "2025-09-11",
+        "gas_per_tx": 150170.3778409952,
+        "identified_by": "inferred successor (unlabelled)",
+        "last_active": "2026-09-15",
+        "median_effective_gwei": 0.006200007402872482,
+        "txs_per_active_day": 16853.035135135135
+      }
+    ]
+  },
+  "rev_wintermute_handover_gas_per_tx_new": {
+    "note": "contract_activity gas/tx on the handover day, unlabelled successor",
+    "value": 147363.7990815155
+  },
+  "rev_wintermute_handover_gas_per_tx_old": {
+    "note": "contract_activity gas/tx on the handover day, Wintermute's labelled contract",
+    "value": 150687.570492303
+  },
+  "rev_wintermute_migration_day": {
+    "note": "last day of Wintermute's labelled contract = first full day of the unlabelled successor (file 06)",
+    "value": "2025-09-12"
+  },
+  "rev_wintermute_prior_exec_share": {
+    "note": "contract_activity x labels entity_project='wintermute', prior; exec fee of txs sent to them / all exec fee (file 06)",
+    "value": 0.3589666116358252
+  }
+}
